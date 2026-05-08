@@ -8,6 +8,7 @@ Small demo project that uses LangChain plus a few themed tools to answer strange
 .
 ├─ normalobjects_langchain.py
 ├─ requirements.txt
+├─ lab_summary.md
 ├─ .env.example
 └─ src/
    └─ complaint_handler/
@@ -22,6 +23,8 @@ Small demo project that uses LangChain plus a few themed tools to answer strange
 ## Modules
 
 - `normalobjects_langchain.py`: compatibility entrypoint that runs the packaged app
+- `lab_summary.md`: short reflection required by the lab submission guidelines
+- `.env.example`: template for the required OpenAI API key
 - `src/complaint_handler/config.py`: environment loading and model settings
 - `src/complaint_handler/agent.py`: LangChain model and agent creation plus complaint handling
 - `src/complaint_handler/prompts.py`: system prompt text
