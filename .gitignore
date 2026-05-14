@@ -1,44 +1,64 @@
-.conda/
-.vscode/
-.codex/
-.agents/
-
-# Python bytecode and caches
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Virtual environments and local env files
-.env
-.env.*
-!.env.example
+# Virtual environments
 .venv/
 venv/
 env/
 ENV/
+.conda/
 
-# Build and packaging artifacts
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python packaging and build outputs
 build/
 dist/
-downloads/
-.eggs/
 *.egg-info/
+.eggs/
 *.egg
-pip-wheel-metadata/
 
-# Test and type-checker caches
+# Test and coverage outputs
 .pytest_cache/
-.mypy_cache/
-.ruff_cache/
-.pyre/
-.hypothesis/
-.tox/
-.nox/
-
-# Coverage
 .coverage
 .coverage.*
 htmlcov/
+.tox/
+.nox/
 
-# Notebook artifacts
+# Type checker and tool caches
+.mypy_cache/
+.ruff_cache/
+.pyre/
 .ipynb_checkpoints/
+
+# Jupyter
+.jupyter/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# lab
+lab_source/
+
+# codex
+.codex/
+.agents/
+
+# Claude Code
+.claude/
+CLAUDE.local.md
